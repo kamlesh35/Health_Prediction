@@ -39,4 +39,5 @@ urlpatterns = [
     path('delete_feedback<int:pid>', delete_feedback,name="delete_feedback"),
     path('assign_status<int:pid>', Assign_Status,name="assign_status"),
     path('delete_notification<int:pid>', delete_notification,name="delete_notification"),
+    path("mydata", Readdata, name = "mydata")
 ]+static(settings.MEDIA_URL,document_root = settings.MEDIA_ROOT)

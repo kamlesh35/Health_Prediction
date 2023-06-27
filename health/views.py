@@ -616,3 +616,7 @@ def Assign_Status(request,pid):
         terror=True
     d = {'prod': a,'terror':terror}
     return render(request,'assign_status.html',d)
+
+
+def Readdata(request):
+    return render (request ,"name.html")
