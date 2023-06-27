@@ -618,5 +618,3 @@ def Assign_Status(request,pid):
     return render(request,'assign_status.html',d)
 
 
-def Readdata(request):
-    return render (request ,"name.html")
